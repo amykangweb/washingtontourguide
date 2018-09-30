@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">WashingtonTourGuide</string>
+
+    <!-- Museum names and addresses -->
+    <string name="mopop_fullname">Museum of Pop Culture</string>
+    <string name="mopop_address">325 5th Ave N, Seattle, WA 98109</string>
+
+    <string name="lemay_fullname">LeMay Car Museum</string>
+    <string name="lemay_address">2702 E D St, Tacoma, WA 98421</string>
+
+    <string name="mohai_fullname">Museum of History and Industry</string>
+    <string name="mohai_address">860 Terry Ave N, Seattle, WA 98109</string>
+
+    <string name="living_fullname">Living Computers: Museum + Labs</string>
+    <string name="living_address">2245 1st Ave S, Seattle, WA 98134</string>
+</resources>

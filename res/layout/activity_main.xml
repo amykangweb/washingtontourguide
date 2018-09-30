@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="net.amykang.washingtontourguide.MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"/>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="@color/colorPrimary"
+        app:tabSelectedTextColor="@android:color/white"
+        app:tabTextColor="@android:color/black">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_museums"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Museum" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_parks"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Parks" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_zoos"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Zoos" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/tab_food"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Food" />
+
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
